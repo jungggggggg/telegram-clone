@@ -31,8 +31,6 @@ export default function ChannelScreen() {
             <Channel channel={channel}>
                 <MessageList />
                 <SafeAreaView edges={['bottom']}>
-
-                
                 <MessageInput />
                 </SafeAreaView>
             </Channel>
